@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WasteKnot</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;0,800;1,400;1,600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Blurred Background */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./img/BG_1_img.jpg') no-repeat center center fixed;
+    background-size: cover;
+    filter: blur(7px); /* Slight blur effect */
+    z-index: -1;
+}
+
+/* Highlighted Text */
+.logo, .para {
+    position: relative;
+    text-align: center;
+    color: rgb(1, 27, 5);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7); /* Glow effect for better readability */
+}
+
+/* Buttons */
+a {
+    display: inline-block;
+    font-size: 20px;
+    background: #09291a;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px auto;
+    color: #fff;
+    letter-spacing: 2px;
+    transition: 0.3s;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+a:hover {
+    letter-spacing: 6px;
+    background: #0b3d2e;
+}
+
+/* Login Container */
+.log {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        font-size: 30px;
+    }
+
+    .para {
+        font-size: 80px;
+    }
+
+    a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+</style>
+<body>
+    <p class="logo" style="font-size: 50px; font-style: initial;"> Welcome to Waste<b style="color: #fff;">Knot</b></p>
+    <p class="para" style="font-size: 40px; color:#fff"> Login as</p>
+
+    <div class="log">
+        <a href="signup.php">Consumer</a>
+        <a href="admin/signup.php">Provider</a>
+        <a href="delivery/deliverysignup.php" id="delivery">
+            <i class="fa-solid fa-moped"></i> Delivery
+        </a>
+    </div>
+</body>
+</html>
