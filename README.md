@@ -25,5 +25,7 @@ By leveraging **technology**, we turn waste into **opportunity** for people, ani
 - **Logistics Integration**: Optimized route planning and real-time pickup scheduling.
 - **Notifications**: Automatic alerts for waste pickup and delivery.
 
+- https://youtu.be/3pS3fxnQuoI
+
 
 
