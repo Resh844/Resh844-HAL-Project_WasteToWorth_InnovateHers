@@ -28,4 +28,4 @@ By leveraging **technology**, we turn waste into **opportunity** for people, ani
 
 ## 📸 Output
 
-![Food Waste Platform Output]("C:\Users\SUSHMA\Downloads\HAL_img1.jpeg")
+![Food Waste Platform Output](output_images/Screenshot (262).png)
