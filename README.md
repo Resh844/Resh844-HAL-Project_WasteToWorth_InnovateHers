@@ -26,6 +26,4 @@ By leveraging **technology**, we turn waste into **opportunity** for people, ani
 - **Notifications**: Automatic alerts for waste pickup and delivery.
 
 
-## 📸 Output
 
-![Food Waste Platform Output](output_images/Screenshot (262).png)
